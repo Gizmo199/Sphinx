@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Sphinx",
-    "path": "folders/Sphinx.yy",
+  "$GMScript":"v1",
+  "%Name":"SphinxDecryptBuffer",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SphinxDecryptBuffer",
+  "parent":{
+    "name":"Sphinx",
+    "path":"folders/Sphinx.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "SphinxDecryptBuffer",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

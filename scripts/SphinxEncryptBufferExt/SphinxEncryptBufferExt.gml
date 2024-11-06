@@ -7,6 +7,10 @@
 
 function SphinxEncryptBufferExt(_buffer, _offset, _size, _key)
 {
+	if ( !is_int64(_key) )
+	{
+		show_error("Sphinx:\n\nThe key provided is not a 64-bit integer!\n", true);
+	}
     var _compressed = buffer_compress(_buffer, _offset, _size);
     
     var _compressed_size = buffer_get_size(_compressed);

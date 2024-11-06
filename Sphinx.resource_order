@@ -1,0 +1,13 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"oTest","order":1,"path":"objects/oTest/oTest.yy",},
+    {"name":"rmMain","order":2,"path":"rooms/rmMain/rmMain.yy",},
+    {"name":"SphinxDecryptBuffer","order":5,"path":"scripts/SphinxDecryptBuffer/SphinxDecryptBuffer.yy",},
+    {"name":"SphinxDecryptBufferExt","order":6,"path":"scripts/SphinxDecryptBufferExt/SphinxDecryptBufferExt.yy",},
+    {"name":"SphinxDecryptString","order":4,"path":"scripts/SphinxDecryptString/SphinxDecryptString.yy",},
+    {"name":"SphinxEncryptBuffer","order":2,"path":"scripts/SphinxEncryptBuffer/SphinxEncryptBuffer.yy",},
+    {"name":"SphinxEncryptBufferExt","order":3,"path":"scripts/SphinxEncryptBufferExt/SphinxEncryptBufferExt.yy",},
+    {"name":"SphinxEncryptString","order":1,"path":"scripts/SphinxEncryptString/SphinxEncryptString.yy",},
+  ],
+}

@@ -5,6 +5,10 @@
 
 function SphinxDecryptString(_string, _key)
 {
+	if ( !is_int64(_key) )
+	{
+		show_error("Sphinx:\n\nThe key provided is not a 64-bit integer!\n", true);
+	}
     var _encrypted = buffer_base64_decode(_string);
     
     var _decrypted = SphinxDecryptBuffer(_encrypted, _key);

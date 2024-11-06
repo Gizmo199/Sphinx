@@ -7,6 +7,10 @@
 
 function SphinxDecryptBufferExt(_buffer, _offset, _size, _key)
 {
+	if ( !is_int64(_key) )
+	{
+		show_error("Sphinx:\n\nThe key provided is not a 64-bit integer!\n", true);
+	} 
     var _tempBuffer = buffer_create(_size, buffer_fixed, 1);
     buffer_copy(_buffer, _offset, _size, _tempBuffer, 0);
     
